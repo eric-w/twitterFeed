@@ -34,7 +34,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return !UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
 #pragma mark - NSURLConnectionDelegate
