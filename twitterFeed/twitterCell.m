@@ -10,6 +10,4 @@
 
 @implementation twitterCell
 
-@synthesize twitterTextView = _twitterTextView;
-
 @end
